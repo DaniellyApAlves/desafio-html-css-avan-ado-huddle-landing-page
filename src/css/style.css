@@ -1,0 +1,88 @@
+body {
+    background-size: contain;
+    background-image: url(../image/bg-desktop.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin-left: 50px;
+     
+
+}
+
+.header {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    
+    
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.principal .imagecentral {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+    
+}
+
+.principal .informacoes {
+    align-items: center;
+    padding: 40px 40px 10px 50px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.principal .informacoes h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.principal .informacoes p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.principal .informacoes .btn {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 3px rgb(80, 8, 80);
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: right;
+    margin: 0px 30px;
+    transform: translateY(-90%)
+     
+    
+    
+}
+
+.socialmedia .button {
+    color: #FFFFFF;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+    
